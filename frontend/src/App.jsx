@@ -87,8 +87,8 @@ function App() {
     try {
       const endpoint =
         authMode === "signup"
-          ? "http://localhost:5000/api/auth/signup"
-          : "http://localhost:5000/api/auth/login";
+          ? "https://taskflow-n3s9.onrender.com/api/auth/signup"
+          : "https://taskflow-n3s9.onrender.com/api/auth/login";  
 
       const body =
         authMode === "signup"
