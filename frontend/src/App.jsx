@@ -33,7 +33,7 @@ function App() {
     localStorage.getItem("taskflow-theme") === "dark"
   );
 
-  const API_URL = "http://localhost:5000/api/tasks";
+ const API_URL = "https://taskflow-n3s9.onrender.com/api/tasks";
 
   /* =========================================
      THEME
